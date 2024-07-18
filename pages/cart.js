@@ -195,7 +195,7 @@ export default function CartPage() {
     event.preventDefault()
     setButtonText('Processing')
     Axios.post('https://payment.intasend.com/api/v1/checkout/', {
-      public_key: 'https://payment.intasend.com/api/v1/checkout/',
+      public_key: 'ISPubKey_live_ced55dd6-5b04-490a-8437-4807203e1d3f',
       first_name: firstName,
       last_name: lastName,
       phone_number: phone,
